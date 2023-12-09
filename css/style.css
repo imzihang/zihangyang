@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box .header_nav {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .header_nav nav {
+  width: 80vh;
+}
+.box .header_nav nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .header_nav nav ul li {
+  list-style: none;
+}
+.box .header_nav nav ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+.box .banner {
+  width: 80%;
+  height: 400px;
+  background: url(../images/背景1.jpg) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.box .banner2 {
+  width: 80%;
+  height: 400px;
+  background: url(../images/背景2.png) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.box .section {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #dfd9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 1px 1px #f1eded;
+}
+.box .section:hover {
+  background: #e9e5e5;
+  cursor: pointer;
+}
+.box .section:hover span {
+  color: #fff;
+}
+.box .section .letf {
+  width: 40%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box .section .letf span p {
+  display: block;
+  text-indent: 2em;
+  text-align: left;
+  margin: 10px 0;
+}
+.box .section .letf img {
+  display: block;
+  height: 100px;
+}
+.box .section .letfs {
+  width: 60%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.box .section .letfs img {
+  display: block;
+  border-radius: 50%;
+  height: 100px;
+}
+.box .section .letfs span {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box .section .letfs span p {
+  color: #7e7a7a;
+}
+.box .section .right .title {
+  width: 90%;
+  height: 150px;
+  border: 1px solid #bebaba;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px;
+}
+.box .section .right .title span {
+  color: #ccc;
+  font-weight: bold;
+  line-height: 30px;
+}
+.box .section .right img {
+  display: block;
+  width: 250px;
+  height: 200px;
+  transition: all 2s;
+}
+.box .section .right img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.box .sections {
+  width: 80%;
+  height: 500px;
+  border: 1px solid #dfd9d9;
+  box-shadow: 1px 1px 1px 1px #f1eded;
+  display: flex;
+  align-items: center;
+}
+.box .sections .letfss {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.box .sections .letfss span {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .sections .letfss span img {
+  display: block;
+  width: 300px;
+  height: 100px;
+}
+.box .sections .letfss span img:nth-child(1) {
+  height: 300px;
+}
+.box .sections .letfss span p {
+  color: #7e7a7a;
+}
+.box .basic-grey {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background: #F7F7F7;
+  padding: 25px 15px 25px 10px;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  color: #888;
+  text-shadow: 1px 1px 1px #FFF;
+  border: 1px solid #E4E4E4;
+  margin-top: 15px;
+}
+.box .basic-grey h1 {
+  font-size: 25px;
+  padding: 0px 0px 10px 40px;
+  display: block;
+  border-bottom: 1px solid #E4E4E4;
+  margin: -10px -15px 30px -10px;
+  color: #888;
+}
+.box .basic-grey h1 > span {
+  display: block;
+  font-size: 11px;
+}
+.box .basic-grey label {
+  display: block;
+  margin: 0px;
+}
+.box .basic-grey label > span {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #888;
+}
+.box .basic-grey input[type="text"],
+.box .basic-grey input[type="email"],
+.box .basic-grey textarea,
+.box .basic-grey select {
+  border: 1px solid #DADADA;
+  color: #888;
+  height: 30px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  outline: 0 none;
+  padding: 3px 3px 3px 5px;
+  width: 70%;
+  font-size: 12px;
+  line-height: 15px;
+  box-shadow: inset 0px 1px 4px #ECECEC;
+  -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+  -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.box .basic-grey textarea {
+  padding: 5px 3px 3px 5px;
+}
+.box .basic-grey textarea {
+  height: 100px;
+}
+.box .basic-grey .button {
+  background: #E27575;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+}
+.box .basic-grey .button:hover {
+  background: #CF7A7A;
+}
